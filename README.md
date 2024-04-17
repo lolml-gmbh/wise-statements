@@ -19,7 +19,7 @@ In order to link the app with Wise, you must first create an API token with your
 
 ## Using the app
 
-Once the app is running in your browser, you must link it to your account:
+Once the app is running in your browser (see the Installation instructions below), you must link it to your account:
 
 1. On the left sidebar, enter your API token.
 2. Under "Upload private key file," click the "Browse files" button, and select your private key file.
@@ -76,7 +76,7 @@ For any developers who would like to make edits, note that all generations of th
 
 The following are instructions you can follow for creating an API token and public/private keys for Wise.
 
-1. Create an API token and register it with Wise:
+1. Create an API token with Wise:
     - Go to [Wise](https://wise.com) and log in to your account.
     - Go to Settings > API tokens > Create a token.
     - Store the token in a secure location on your computer. Consider using a password manager or encrypted storage.
