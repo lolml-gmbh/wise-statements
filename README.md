@@ -96,7 +96,19 @@ The following are instructions you can follow for creating an API token and publ
 
 # Installation
 
-## Local Installation (TL;DR version)
+## Using a docker container
+
+
+If you would like to run the app in a Docker container, you can build the image and run the container with the following commands (linux/macOS):
+
+```
+sudo docker build -t wise_app_img .
+sudo docker run -it -p 8501:8501 wise_app_img:latest
+```
+
+You can then navigate to `http://localhost:8501` in your browser to access the app.
+
+## Using Local Installation (TL;DR version)
 
 1. Clone the repo: 
 
@@ -121,7 +133,7 @@ conda install --file requirements.txt -c conda-forge
 - Run the app with streamlit: `streamlit run app.py`.
 - Access app in your browser at `http://localhost:8501`.
 
-## Local Installation (detailed version)
+## Using Local Installation (detailed version)
 
 This repository is hosted by GitHub and can be accessed at the URL:
 
