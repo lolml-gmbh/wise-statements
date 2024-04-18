@@ -11,7 +11,6 @@ pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
 
 APP_TITLE = "Wise Statements"
-MAIN_PAGE_HEADER = "Displays Euro business accounts."
 CURRENT_YEAR = datetime.now().year
 SELECTED_ACCOUNT_TYPE = "BUSINESS"
 CURRENCY = "EUR"
@@ -36,8 +35,7 @@ def main() -> None:
     Main function to run the Streamlit web application using the WiseApi class.
     """
     st.title(APP_TITLE)
-    st.header(MAIN_PAGE_HEADER)
-    st.info("Displays Euro accounts.")
+    st.info("Displays Euro business accounts.")
 
     sandbox_checkbox = st.sidebar.checkbox("Sandbox account")
 
