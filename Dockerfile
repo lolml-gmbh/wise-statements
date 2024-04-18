@@ -3,8 +3,6 @@ FROM python:3.11.5
 WORKDIR /wise_app
 
 RUN apt-get update && apt-get install -y \
-#    xdg-utils \
-#    chromium \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
