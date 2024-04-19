@@ -9,6 +9,10 @@ The Wise statements viewer is a streamlit app, which displays [Wise](https://wis
 
 However, the code can easily be modified.
 
+# Disclaimer
+
+This application is independently developed and is not affiliated with, nor has it been authorized, sponsored, or otherwise approved by Wise.com. The developer disclaims any responsibility for any harm resulting from your use of this application. It is provided 'as is' without warranty of any kind, either express or implied. Use of the application is solely at your own risk.
+
 # App Description
 
 ![Main application screen](docs/main.png)
