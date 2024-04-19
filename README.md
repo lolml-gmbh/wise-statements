@@ -83,9 +83,10 @@ The following are instructions you can follow for creating an API token and publ
 2. Create a public and private key.  In a terminal (Linux/macOS) or Command Prompt/PowerShell (Windows), do the following:
     - All users: create the directory in a secure location on your computer:
         - `mkdir YOUR_DIRECTORY`
+        - navigate to the directory: `cd YOUR_DIRECTORY`
     - Linux/macOS:
-        - `openssl genrsa -out YOUR_DIRECTORY/YOUR_FILENAME-private.pem 2048`
-        - `openssl rsa -pubout -in YOUR_DIRECTORY/YOUR_FILENAME-private.pem -out YOUR_DIRECTORY/YOUR_FILENAME-public.pem`
+        - `openssl genrsa -out YOUR_FILENAME-private.pem 2048`
+        - `openssl rsa -pubout -in YOUR_FILENAME-private.pem -out YOUR_FILENAME-public.pem`
     - Windows:
         - Ensure OpenSSL is installed on your computer.  If not, you can download it from [here](https://slproweb.com/products/Win32OpenSSL.html), or a package manager.
         - Use the same commands as above in your PowerShell or Command Prompt. You might need to specify the full path to the OpenSSL executable if it's not added to your `PATH` environment variable.
